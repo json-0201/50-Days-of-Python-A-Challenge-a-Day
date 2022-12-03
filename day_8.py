@@ -1,6 +1,6 @@
 # Odd and Even
 
-def odd_even(l: list):
+def odd_even(l: list) -> int:
     """returns the difference between:
     the largest even number and the smallest odd number."""
     
@@ -15,15 +15,11 @@ print(odd_even([1,2,4,6]))
 # Extra Challenge: List of Prime Numbers
 from primePy import primes
 
-def prime_numbers():
+def prime_numbers() -> list:
     """returns a list of all the prime numbers within its range."""
     
     n = int(input("Enter a number:"))
-    p = []
-    
-    for i in range(n):
-        if primes.check(i):
-            p.append(i)
+    p = [i for i in range(n) if primes.check(i)]
     p.remove(1)
     
     return p
