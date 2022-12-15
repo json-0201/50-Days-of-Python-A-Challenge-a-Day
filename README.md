@@ -3,5 +3,5 @@
 <p align="center">
   <a href="https://benjaminb.gumroad.com/l/zybjn" target="_blank">Book</a>
   <br>
-  Solution by json-0201
+  Solutions by json-0201
 </p>
