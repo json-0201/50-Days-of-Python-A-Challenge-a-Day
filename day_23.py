@@ -43,7 +43,7 @@ s1 = "love live and laugh"
 s2 = "Hate war love Peace"
 
 def multiply_words(s: str) -> int:
-    """Returns the multiplication of length of lowercase words."""
+    """Returns the multiplied value of the lengths of lowercase words."""
 
     s_lower = [word for word in s.split() if not any(char.isupper() for char in word)]
     
