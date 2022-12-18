@@ -3,12 +3,12 @@
 class Calculator:
     """A simple calculator."""
     def calculator(self):
-        """user inputs two numbers"""
+        """User chooses an operation and inputs two numbers."""
 
-        operation = input("choose an operation [add/subtract/multiply/divivde]: ")
+        operation = input("Choose an operation [add/subtract/multiply/divivde]: ")
         
         if operation not in ["add", "subtract", "multiply", "divide"]:
-            raise NameError ("please choose a valid operation!")
+            raise NameError ("Please choose a valid operation!")
         
         self.num1 = float(input("Enter first number: "))
         self.num2 = float(input("Enter second number: "))
@@ -21,7 +21,7 @@ class Calculator:
             self.multiply()
         elif operation == "divide":
             if self.num2 == 0:
-                raise ZeroDivisionError ("cannot divide by zero!")
+                raise ZeroDivisionError ("Cannot divide by zero!")
             self.divide()
 
     
@@ -43,7 +43,7 @@ s1 = "love live and laugh"
 s2 = "Hate war love Peace"
 
 def multiply_words(s: str) -> int:
-    """returns the multiplication of length of lowercase words."""
+    """Returns the multiplication of length of lowercase words."""
 
     s_lower = [word for word in s.split() if not any(char.isupper() for char in word)]
     
