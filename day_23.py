@@ -5,7 +5,7 @@ class Calculator:
     def calculator(self):
         """user inputs two numbers"""
 
-        operation = input("type an operation: add/subtract/multiply/divivde: ")
+        operation = input("type an operation [add/subtract/multiply/divivde]: ")
         
         if operation not in ["add", "subtract", "multiply", "divide"]:
             raise NameError ("please choose a valid operation!")
