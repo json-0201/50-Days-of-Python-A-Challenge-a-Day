@@ -28,5 +28,5 @@ result = soup.find("table", {"class": "wikitable"})
 
 df_python = pd.read_html(str(result)) # returns a list of 1 element
 df_python = pd.DataFrame(df_python[0])
-df_python = df_python[["Type", "Mutability"]] # clean up the table
+df_python = df_python[["Type", "Mutability"]] # select columns to display
 print(df_python)
