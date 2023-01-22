@@ -1,0 +1,44 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    background-color: green;
+    font-size: 18px;
+    color: red;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.home .title{
+    font-size: 28px;
+    color: #ffd500;
+    position: absolute;
+    top: 27.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home .content-home{
+    font-size: 18px;
+    color: #b589d6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home .content-about{
+    width: 30%;
+    font-size: 18px;
+    color: #b589d6;
+    position: absolute;
+    top:52.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
